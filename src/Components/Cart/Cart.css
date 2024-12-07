@@ -1,0 +1,43 @@
+.cart {
+    min-height: calc(100vh - 520.5px);
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item img{
+    width: 50px;
+}
+.left-total{
+    flex: 1;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.left-total button,
+.right-total button {
+    background-color: var(--main) !important;
+    color: white;   
+    width: 100%;
+}
+
+.right-total input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}

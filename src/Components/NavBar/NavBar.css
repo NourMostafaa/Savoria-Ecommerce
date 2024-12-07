@@ -1,0 +1,39 @@
+img {
+    cursor: pointer;
+}
+
+.nav-item .active {
+    color: var(--main) !important;
+}
+
+.basket {
+    margin: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+}
+.basket::after{
+    content: "";
+    background-color: var(--main);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.btn-outline-success {
+    margin: 0 0 0 15px;
+    transition: 0.2s linear all;
+}
+.btn-outline-success:hover {
+    background-color: var(--main);
+    border-color: var(--main);
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 29px;
+    color: var(--main) !important;
+
+} 

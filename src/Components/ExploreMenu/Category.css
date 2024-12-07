@@ -1,0 +1,29 @@
+.category-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    font-size: large;
+    gap: 5px;
+    animation: fadeIn 1.3s linear;
+}
+.category-item img {
+    border-radius: 50%;
+    transition: 0.15s linear all;
+}
+
+.category hr {
+    margin: 15px 0;
+}
+
+.category .category-item .active {
+    border: 4px var(--main) solid;
+    padding: 2px;
+}

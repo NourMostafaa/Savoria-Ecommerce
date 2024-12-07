@@ -1,0 +1,7 @@
+.play-store, .app-store {
+    transition: 0.2s linear all;
+}
+
+.play-store:hover, .app-store:hover {
+    scale: 1.1;
+}
